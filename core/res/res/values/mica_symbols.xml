@@ -41,4 +41,8 @@
     <java-symbol type="string" name="battery_share_disabled_power_saver" />
     <java-symbol type="string" name="battery_share_disabled_low_battery" />
     <java-symbol type="drawable" name="ic_qs_powershare" />
+
+     <!-- Whether to cancel fingerprint operation if not idle -->
+    <java-symbol type="bool" name="config_fpCancelIfNotIdle" />
+
 </resources>

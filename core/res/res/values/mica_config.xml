@@ -73,4 +73,8 @@
 
    <!-- Power share thresholds -->
     <integer name="config_defPowerShareThreshold">20</integer>
+
+   <!-- Whether to cancel fingerprint operation if not idle -->
+    <bool name="config_fpCancelIfNotIdle">false</bool> 
+    
 </resources>
