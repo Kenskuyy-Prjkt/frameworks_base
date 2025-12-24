@@ -87,6 +87,7 @@ import com.android.systemui.util.settings.SecureSettings;
 import com.android.systemui.util.time.FakeSystemClock;
 import com.android.systemui.volume.domain.interactor.VolumeDialogInteractor;
 import com.android.systemui.volume.domain.interactor.VolumePanelNavigationInteractor;
+import com.android.systemui.volume.panel.shared.flag.VolumePanelFlag;
 import com.android.systemui.volume.ui.navigation.VolumeNavigator;
 
 import com.google.android.msdl.domain.MSDLPlayer;
@@ -154,6 +155,8 @@ public class VolumeDialogImplTest extends SysuiTestCase {
     @Mock
     private VolumeNavigator mVolumeNavigator;
     @Mock
+    private VolumePanelFlag mVolumePanelFlag;
+    @Mock
     private VolumeDialogInteractor mVolumeDialogInteractor;
 
     private final CsdWarningDialog.Factory mCsdWarningDialogFactory =
@@ -219,6 +222,7 @@ public class VolumeDialogImplTest extends SysuiTestCase {
                 mCsdWarningDialogFactory,
                 mPostureController,
                 mTestableLooper.getLooper(),
+                mVolumePanelFlag,
                 mDumpManager,
                 mLazySecureSettings,
                 mVibratorHelper,
