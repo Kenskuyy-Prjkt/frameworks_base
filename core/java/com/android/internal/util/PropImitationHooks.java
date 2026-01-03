@@ -67,7 +67,6 @@ public class PropImitationHooks {
     private static final String PACKAGE_EMOJIWALLPAPER = "com.google.android.apps.emojiwallpaper";
     private static final String PACKAGE_FINSKY = "com.android.vending";
     private static final String PACKAGE_GMS = "com.google.android.gms";
-    private static final String PACKAGE_GPHOTOS = "com.google.android.apps.photos";
     private static final String PACKAGE_NETFLIX = "com.netflix.mediaclient";
     private static final String PACKAGE_PIXELCREATIVE = "com.google.android.apps.pixel.creativeassistant";
     private static final String PACKAGE_PIXELTHEMES = "com.google.android.apps.customization.pixel";
@@ -167,7 +166,7 @@ public class PropImitationHooks {
             case PACKAGE_BARD:
             case PACKAGE_EMOJIWALLPAPER:
             case PACKAGE_LIVEWALLPAPER:
-            case PACKAGE_GPHOTOS:
+            case PACKAGE_ASI:
             case PACKAGE_PIXELCREATIVE:
             case PACKAGE_PIXELTHEMES:
             case PACKAGE_PIXELWALLPAPER:
